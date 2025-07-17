@@ -1,0 +1,5 @@
+User-agent: *
+Allow: .html$
+Allow: .xml$
+Disallow: /*
+Sitemap: https://gumiyugo.github.io/sitemap.xml

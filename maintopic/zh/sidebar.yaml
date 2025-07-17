@@ -1,0 +1,15 @@
+items:
+-   label: 基本概述
+    file: README.md
+-   label: 字母表
+    file: alphabet.md
+-   label: 发音
+    file: hatsuon.md
+-   label: 语法
+    file: grammar.md
+-   label: 固有词表
+    file: gycb.md
+-   label: 方言一览
+    file: fangyan.md
+-   label: 古米优语诗篇
+    file: poets.md

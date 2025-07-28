@@ -1,3 +1,36 @@
+red {
+    color: red;
+}
+
+blue {
+    color: blue;
+}
+
+gold {
+    color: gold;
+}
+
+green {
+    color: green;
+}
+
+purple {
+    color: purple;
+}
+
+pz {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+    height: 1em;
+    top: -0.4em;
+}
+
+lr {
+    transform: scaleX(0.5);
+    display: inline-block;
+}
+
 .dark blockquote {
     background-color: #363f44;
 }
@@ -23,7 +56,8 @@ blockquote.spoiler {
     background-color: #ffc0c0;
 }
 
-#content_body a, #content_body a:visited {
+#content_body a,
+#content_body a:visited {
     color: #00aeff;
 }
 
@@ -38,15 +72,18 @@ blockquote.spoiler {
     font-family: sans-serif;
     color: #55b3f2;
 }
+
 #home_page h3 {
     width: 100%;
     text-align: center;
 }
+
 #big_btn_wrapper {
     display: flex;
     justify-content: space-evenly;
     margin: 5em 1em;
 }
+
 #home_page .big_btn a {
     padding: 2em;
     background-color: #55b3f2;
@@ -56,19 +93,19 @@ blockquote.spoiler {
     display: flex;
     color: white;
 }
+
 #home_page .big_btn a:hover {
     box-shadow: 6px 4px 20px #0000002e;
 }
+
 .dark #home_page .big_btn a {
     background-color: #006cb5;
     color: #d8f3ff;
 }
+
 .dark #home_page .big_btn a:hover {
     box-shadow: 6px 4px 20px #000000;
     background-color: #4999cf;
 }
 
-@media screen and (max-width: 900px) {
-    
-}
-
+@media screen and (max-width: 900px) {}

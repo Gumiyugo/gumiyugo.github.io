@@ -26,11 +26,6 @@ pz {
     top: -0.4em;
 }
 
-lr {
-    transform: scaleX(0.5);
-    display: inline-block;
-}
-
 .dark blockquote {
     background-color: #363f44;
 }
